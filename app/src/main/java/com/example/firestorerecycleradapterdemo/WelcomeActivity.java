@@ -44,7 +44,7 @@ public class WelcomeActivity extends AppCompatActivity {
             public void onClick(View view)
             {
                 Intent DriverIntent = new Intent(WelcomeActivity.this, DriverLoginRegisterActivity.class);
-                startActivity(DriverIntent);
+                startActivity(DriverIntent) ;
             }
         });
 
