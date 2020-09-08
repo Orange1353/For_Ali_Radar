@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "70018682669",
+    "firebase_url": "https://firestorerecycleradapter-2d513.firebaseio.com",
+    "project_id": "firestorerecycleradapter-2d513",
+    "storage_bucket": "firestorerecycleradapter-2d513.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70018682669:android:dcdddf664190e84b4e0da4",
+        "android_client_info": {
+          "package_name": "com.example.firestorerecycleradapterdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "70018682669-0k3ve6c124s2uudsrf05utb181mscg68.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA70V3-aYKGRYIgrjiKO_B_0LdU5wMU1Bg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "70018682669-0k3ve6c124s2uudsrf05utb181mscg68.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

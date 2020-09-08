@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".WelcomeActivity">
+
+    <ImageButton
+        android:id="@+id/user_profile_photo"
+        android:layout_width="160dp"
+        android:layout_height="158dp"
+        android:layout_below="@+id/titlr_driver"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:background="@drawable/circle"
+        android:elevation="4dp" />
+
+    <Button
+        android:id="@+id/customer_welcome_btn"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="131dp"
+        android:background="#980002"
+        android:text="Я Командир"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/driver_welcome_btn" />
+
+    <Button
+        android:id="@+id/driver_welcome_btn"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:background="@android:color/background_light"
+        android:text="Я Участник"
+        android:textAllCaps="false"
+        android:textColor="#980002"
+        android:textSize="18sp"
+        android:layout_above="@+id/customer_welcome_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp" />
+</RelativeLayout>
